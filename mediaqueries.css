@@ -1,0 +1,161 @@
+/* Default styles are for larger screens like laptops */
+
+/* Mobile Devices (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .main-container {
+        width: 90%;  /* Take up more width on small screens */
+        padding-top: 15px;
+    }
+    .head {
+        padding-left: 27px;
+        font-weight: bold;
+    }
+    .word {
+        font-size: medium;  /*Adjust text for readability*/
+        padding-left: 27px;
+    }
+    .login {
+        margin-top: 10px;
+        padding: 10px;  /* Add padding for better layout */
+    }
+    input {
+        width: 90%;  /* Make input fields take more space */
+    }
+    .btn {
+        width: 90%;  /* Make the button more prominent on small screens */
+    }
+    .or-section {
+        margin: 10px 25px;  /* Adjust margin for smaller screens */
+    }
+    .policy {
+        font-size: 0.8rem;  /* Adjust font size for readability */
+        padding: 15px;
+    }
+    .forgot {
+        font-size: 0.9rem;  /* Make "forgot" text smaller */
+        padding-left: 27px;
+        padding-top: 10px;
+    }
+    .remember {
+        transform: scale(1.1);  /* Slightly reduce checkbox size */
+    }
+    .remember-word {
+        font-size: 0.9rem;  /* Adjust text size */
+        padding: 5px;
+    }
+    .option {
+        width: 90%;  /* Full-width option buttons */
+        margin-bottom: 15px;
+    }
+    .google-sign-in, .apple-sign-in, .micro-sign-in {
+        padding: 5px;  /* Reduce padding for social login buttons */
+    }
+    .new-id-way {
+        font-size: 0.9rem;  /* Adjust text size */
+    }
+}
+
+/* Tablet Devices (min-width: 601px and max-width: 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .main-container {
+        width: 50%;  /* Give more space than mobile, but less than laptop */
+        padding-top: 20px;
+    }
+    .head {
+        padding-left: 33px;
+    }
+    .word {
+        font-size: medium;  /* Keep the font size small */
+        padding-left: 33px;
+    }
+    .login {
+        margin-top: 15px;
+        padding: 15px;  /* More padding for medium screens */
+    }
+    input {
+        width: 90%;  /* Make input fields take up more space */
+    }
+    .btn {
+        width: 90%;  /* Button full-width */
+    }
+    .or-section {
+        margin: 10px 25px;  /* Adjust margins */
+    }
+    .policy {
+        font-size: 0.8rem;  /* Slightly smaller font for medium screens */
+        padding: 15px;
+    }
+    .forgot {
+        font-size: 1rem;  /* Adjust text size */
+        padding-left: 33px;
+        padding-top: 10px;
+    }
+    .remember {
+        transform: scale(1.2);  /* Slightly adjust checkbox size */
+    }
+    .remember-word {
+        font-size: 1rem;  /* Maintain standard font size */
+    }
+    .option {
+        width: 90%;  /* Full-width option buttons */
+        margin-bottom: 10px;
+    }
+    .google-sign-in, .apple-sign-in, .micro-sign-in {
+        padding: 8px;  /* Increase padding for better touch targets */
+    }
+    .new-id-way {
+        font-size: 1rem;  /* Standard font size */
+    }
+}
+
+/* Large Devices (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+    .main-container {
+        width: 35%;  /* Laptop default size */
+        padding-top: 20px;
+    }
+    .head {
+        padding-left: 35px;
+    }
+    .word {
+        font-size: medium;  /* Maintain font size */
+        padding-left: 35px;
+    }
+    .login {
+        margin-top: 10px;
+    }
+    input {
+        width: 80%;  /* Default input size */
+    }
+    .btn {
+        width: 85%;  /* Default button width */
+    }
+    .or-section {
+        margin: 10px 30px;  /* Default margin */
+    }
+    .policy {
+        font-size: 0.8rem;  /* Default font size */
+        padding: 20px;
+    }
+    .forgot {
+        font-size: small;  /* Default font size */
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    .remember {
+        transform: scale(1.3);  /* Default checkbox size */
+    }
+    .remember-word {
+        font-size: 1rem;  /* Default text size */
+    }
+    .option {
+        width: 85%;  /* Default button width */
+    }
+    .google-sign-in, .apple-sign-in, .micro-sign-in {
+        padding: 10px;  /* Default padding */
+    }
+}
+
+
+
+
