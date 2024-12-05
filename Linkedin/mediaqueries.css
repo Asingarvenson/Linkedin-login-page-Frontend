@@ -1,5 +1,5 @@
 /* Default styles are for larger screens like laptops */
-
+/* Media queries or used for making a page responsive */
 /* Mobile Devices (max-width: 600px) */
 @media screen and (max-width: 600px) {
     .main-container {
